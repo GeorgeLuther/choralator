@@ -1,0 +1,64 @@
+//logic functions
+const odd=(num)=>num%2===0
+const rand=(min,max)=>{  
+    min=Math.ceil(min) 
+    max=Math.floor(max) 
+    return Math.floor(Math.random()*(max-min+1))+min 
+}
+const flip=()=>rand(0,1)
+
+//note techniques
+var randNote=function(){
+    return (rand(0,7))
+}
+var chordNote=function(){
+    var chordTones=[0,2,4,7]
+    return chordTones[rand(0,3)]
+}
+
+//motif techniques
+    //reach a chord tone by moving up or down towards it
+let motif=[]
+const reach=()=>{
+    motif.push(chordNote())
+    const dir=flip()
+    const len=rand(1,7)
+    const itv=rand(1,7)
+    for (let i=0;i<len;i++){
+        if (dir){
+            let nu=motif[0]+itv
+            if (nu<11){
+            motif.unshift(nu)
+            }
+        }else{
+            let nu=motif[0]-itv
+            if (nu>-8){
+            motif.unshift(nu)
+            }
+        }
+    }
+    console.log(len)
+    console.log(motif)
+}
+reach()
+    //
+
+//for 2 note motifs, shift the motif up or down some an end on a chordtone
+
+
+//     //reach a chord tone by first hiting the notes around it
+// let encircle=()=>{}
+//     //travel up and down using chordtones
+// var arpeggio=()=>{}
+//     //keep returning to a note
+// var emphasis=()=>{}
+// var makeMotif=[approach(),encirle(),arpeggio(),emphasis()]
+
+// //phrase techniques
+// //phrase function
+// //section techniques
+// //section function
+// //form techniques
+// //form functions
+
+// //input
