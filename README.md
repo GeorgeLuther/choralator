@@ -1,5 +1,5 @@
 # choralator
-A web app that generates music with up to four voices by concatenating randomly generated motifs into larger musical forms. Currently available as an Ableton Live 'M4L' device.
+A web app that generates music with up to four voices by concatenating randomly generated motifs into larger musical forms. Currently available only as an Ableton Live 'M4L' device.
 
 [A video example](https://drive.google.com/open?id=1LPwzdxmeq0OA19RDOUyLk8q0LmFCpnBL)
 
