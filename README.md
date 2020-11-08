@@ -3,7 +3,7 @@ A web app that generates music with up to four voices by concatenating randomly 
 
 [A video example](https://drive.google.com/open?id=1LPwzdxmeq0OA19RDOUyLk8q0LmFCpnBL)
 
-[Info/Ideas](https://docs.google.com/document/d/1aCruQvra4gdVxM3bSFUnUqEJpPABJFGzBNuV2EBoTNo/edit?usp=sharing)
+[Info/Ideas/Brainstorming](https://docs.google.com/document/d/1aCruQvra4gdVxM3bSFUnUqEJpPABJFGzBNuV2EBoTNo/edit?usp=sharing)
 
 https://docs.google.com/document/d/1mQFLe8QfD4V2-bGJsc2HVp5rdeQs2vawUQeMnql7JPE/edit?usp=sharing
 
