@@ -8,5 +8,5 @@ A web app that generates music with up to four voices by concatenating randomly 
 https://docs.google.com/document/d/1mQFLe8QfD4V2-bGJsc2HVp5rdeQs2vawUQeMnql7JPE/edit?usp=sharing
 
 
-View composer-new.js for the most up to date pseudo-code. I am creating a new version.
+View composer-new.js in the composer-old branch for the most up to date pseudo-code. I am creating a new version. First commit forthcoming.
 
